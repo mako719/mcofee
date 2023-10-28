@@ -164,3 +164,61 @@ main h2:after {
     margin-bottom: 3em;
     font-size: 110%;
 }
+
+#main_visual {
+    margin-bottom: 30px;
+}
+
+#main_content {
+    width: 600px;
+    float: left;
+}
+
+#banner {
+    width: 300px;
+    float: right;
+}
+
+#home h2 {
+    text-align: left;
+    border-left: 10px solid #511717;
+    border-bottom: 1px solid #511717;
+    padding: 5px 10px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 1.5em;
+}
+
+#home main h2:before,
+#home main h2:after {
+    border-top: none;
+}
+
+#news dl, #info dl {
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+#news dt, #news dd,
+#info dt, #info dd {
+    line-height: 1.5;
+}
+
+#news dt, #info dt {
+    width: 8em;
+    float: left;
+}
+
+#news dd, #info dd {
+    margin-left: 8em;
+}
+
+#banner ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#banner ul li {
+    margin-bottom: 20px;
+}
